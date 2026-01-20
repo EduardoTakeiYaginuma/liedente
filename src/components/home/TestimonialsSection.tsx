@@ -81,7 +81,7 @@ const TestimonialsSection = () => {
 
                 {/* Quote */}
                 <p className="text-lg md:text-xl text-secondary-muted italic mb-6">
-                  "{testimonials[currentIndex].content}"
+                  &ldquo;{testimonials[currentIndex].content}&rdquo;
                 </p>
 
                 {/* Author */}
